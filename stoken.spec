@@ -4,8 +4,8 @@
 
 Summary:	Token code generator compatible with RSA SecurID 128-bit (AES) token
 Name:		stoken
-Version:	0.92
-Release:	2
+Version:	0.93
+Release:	1
 Group:		Networking/Other
 License:	LGPLv2+
 Url:		https://github.com/cernekee/%{name}
