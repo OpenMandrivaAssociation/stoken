@@ -10,6 +10,11 @@ Group:		Networking/Other
 License:	LGPLv2+
 Url:		https://github.com/cernekee/%{name}
 Source0:	https://github.com/cernekee/%{name}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(hogweed)
 BuildRequires:	pkgconfig(libxml-2.0)
