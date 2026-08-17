@@ -10,6 +10,7 @@ Group:		Networking/Other
 License:	LGPLv2+
 Url:		https://github.com/cernekee/%{name}
 Source0:	https://github.com/cernekee/%{name}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Patch0:		stoken-0.93-nettle4.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool-base
